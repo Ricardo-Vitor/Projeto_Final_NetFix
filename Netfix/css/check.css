@@ -1,0 +1,39 @@
+#imagens img {
+    max-width: 200px;
+  }
+figure{
+    background-color: #F2EDED;
+    border: 1px solid #111111;
+    text-align: center;
+}
+
+figure {
+padding: 5px;
+}
+
+#estilo {
+    float: left;
+    margin: 10px;
+    }
+
+figcaption {
+    margin-top: 10px;
+    }
+
+#manuais:checked ~ #imagens .carpintaria, #manuais:checked ~ #imagens .marcenaria, #manuais:checked ~ #imagens .mecanica, #manuais:checked ~ #imagens .jardinagem {
+    display: none;
+}
+  
+#carpintaria:checked ~ #imagens .manuais, #carpintaria:checked ~ #imagens .marcenaria, #carpintaria:checked ~ #imagens .mecanica, #carpintaria:checked ~ #imagens .jardinagem {
+   display: none;
+}
+
+#marcenaria:checked ~ #imagens .manuais, #marcenaria:checked ~ #imagens .carpintaria, #marcenaria:checked ~ #imagens .mecanica, #marcenaria:checked ~ #imagens .jardinagem {
+    display: none;
+}
+#mecanica:checked ~ #imagens .manuais, #mecanica:checked ~ #imagens .marcenaria, #mecanica:checked ~ #imagens .marcenaria, #mecanica:checked ~ #imagens .jardinagem {
+    display: none;
+}
+#jardinagem:checked ~ #imagens .manuais, #jardinagem:checked ~ #imagens .marcenaria, #jardinagem:checked ~ #imagens .mecanica, #jardinagem:checked ~ #imagens .carpintaria {
+    display: none;
+}

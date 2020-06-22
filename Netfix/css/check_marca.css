@@ -1,0 +1,41 @@
+#imagens img {
+    max-width: 200px;
+  }
+figure{
+    background-color: #F2EDED;
+    border: 1px solid #111111;
+    text-align: center;
+}
+
+figure {
+padding: 5px;
+}
+
+#estilo {
+    float: left;
+    margin: 10px;
+    }
+
+figcaption {
+    margin-top: 10px;
+    }
+
+    #gedore:checked ~ #imagens .manuais.fortgpro, #gedore:checked ~ #imagens .manuais.robust, #gedore:checked ~ #imagens .carpintaria.vonder, #gedore:checked ~ #imagens .marcenaria.vonder, #gedore:checked ~ #imagens .mecanica.fortgpro, #gedore:checked ~ #imagens .jardinagem.vulcan, #gedore:checked ~ #imagens .jardinagem.escalli  {
+        display: none;
+    }
+    #fortgpro:checked ~ #imagens .gedore, #fortgpro:checked ~ #imagens .robust, #fortgpro:checked ~ #imagens .vonder, #fortgpro:checked ~ #imagens .escalli, #fortgpro:checked ~ #imagens .vulcan {
+        display: none;
+    }
+    #robust:checked ~ #imagens .gedore, #robust:checked ~ #imagens .fortgpro, #robust:checked ~ #imagens .vonder, #robust:checked ~ #imagens .escalli, #robust:checked ~ #imagens .vulcan {
+        display: none;
+    }
+    #vonder:checked ~ #imagens .gedore, #vonder:checked ~ #imagens .fortgpro, #vonder:checked ~ #imagens .robust, #vonder:checked ~ #imagens .escalli, #vonder:checked ~ #imagens .vulcan {
+        display: none;
+    }
+    #escalli:checked ~ #imagens .gedore, #escalli:checked ~ #imagens .fortgpro, #escalli:checked ~ #imagens .robust, #escalli:checked ~ #imagens .vonder, #escalli:checked ~ #imagens .vulcan {
+        display: none;
+    }
+    #vulcan:checked ~ #imagens .gedore, #vulcan:checked ~ #imagens .fortgpro, #vulcan:checked ~ #imagens .robust, #vulcan:checked ~ #imagens .vonder, #vulcan:checked ~ #imagens .escalli {
+        display: none;
+    }
+    

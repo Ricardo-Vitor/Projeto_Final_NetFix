@@ -1,0 +1,31 @@
+#imagens img {
+    max-width: 200px;
+  }
+figure{
+    background-color: #F2EDED;
+    border: 1px solid #111111;
+    text-align: center;
+}
+
+figure {
+padding: 5px;
+}
+
+#estilo {
+    float: left;
+    margin: 10px;
+    }
+
+figcaption {
+    margin-top: 10px;
+    }
+
+    #cinquenta:checked ~ #imagens .cem, #cinquenta:checked ~ #imagens .mais_cem{
+        display: none;
+    }
+    #cem:checked ~ #imagens .cinquenta, #cem:checked ~ #imagens .mais_cem{
+        display: none;
+    }
+    #mais_cem:checked ~ #imagens .cinquenta, #mais_cem:checked ~ #imagens .cem{
+        display: none;
+    }

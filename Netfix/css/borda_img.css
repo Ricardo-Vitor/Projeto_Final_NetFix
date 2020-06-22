@@ -1,0 +1,18 @@
+figure{
+    background-color: #F2EDED;
+    border: 1px solid #111111;
+    text-align: center;
+}
+
+figure {
+padding: 5px;
+}
+
+#estilo {
+    float: right;
+    margin: 10px;
+    }
+
+figcaption {
+    margin-top: 10px;
+    }

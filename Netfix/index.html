@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>NetFix</title>
+      <meta charset="utf-8">
+      
+        <link rel="stylesheet" href="css/bordas.css">
+        <link rel="stylesheet" href="css/check.css">
+        <link rel="stylesheet" href="css/check_marca.css">
+        <link rel="stylesheet" href="css/check_preços.css">
+    </head>
+<body>
+    <img src= "img/barra.png">
+        <div class="contador">
+<!-- Manuais, Carpintaria, Marcenaria, Mecanica, Jardinagem -->
+        <h3><input type="radio" name="filtro" id="tudo" checked>
+        <label for="tudo">Tudo</label></h3>
+        <h2>Categorias</h2>
+        <input type="radio" name="filtro" id="manuais">
+        <label for="manuais">Ferramentas Manuais</label>
+        <input type="radio" name="filtro" id="carpintaria">
+        <label for="carpintaria">Carpintaria</label>
+        <input type="radio" name="filtro" id="marcenaria">
+        <label for="marcenaria">Marcenaria</label>
+        <input type="radio" name="filtro" id="mecanica">
+        <label for="mecanica">Mecanica</label>
+        <input type="radio" name="filtro" id="jardinagem">
+        <label for="jardinagem">Jardinagem</label>
+        <p></p>
+        <h2>Marcas</h2>
+<!--GEDORE, FORTGPRO, ROBUST, VONDER, ESCALI, VULCAN-->
+        <p></p>
+        <input type="radio" name="filtro" id="gedore">
+        <label for="gedore">GEDORE</label>
+        <input type="radio" name="filtro" id="fortgpro">
+        <label for="fortgpro">FORTGPRO</label>
+        <input type="radio" name="filtro" id="robust">
+        <label for="robust">ROBUST</label>
+        <input type="radio" name="filtro" id="vonder">
+        <label for="vonder">VONDER</label>
+        <input type="radio" name="filtro" id="escalli">
+        <label for="escalli">ESCALLI</label>
+        <input type="radio" name="filtro" id="vulcan">
+        <label for="vulcan">VULCAN</label>
+        <p></p>
+        <h2>Preços</h2>
+<!-- Até R$cinquenta, R$cinquenta até R$cem, Mais de R$200-->
+        <p></p>
+        <input type="radio" name="filtro" id="cinquenta">
+        <label for="cinquenta">R$50 </label>
+        <input type="radio" name="filtro" id="cem">
+        <label for="cem">R$50 até R$100</label>
+        <input type="radio" name="filtro" id="+cem">
+        <label for="200">Mais de R$100</label>
+        <p></p>
+        <div id="imagens">
+            <div class="manuais" class="gedore" class="cinquenta">
+                <figure id="estilo">
+                    <a href="martelo.html"><img src= "img/martelo.png" class="manuais" class="gedore" class="cinquenta"></a>
+                    <figcaption>Martelo 23mm cabo de madeira <p></p> GEDORE <p></p> R$ 20</figcaption>
+                </figure>
+            </div>
+            <div class="manuais" class="gedore" class="cem">
+                <figure id="estilo">
+                    <a href="alicate_bico_reto.html"><img src= "img/alicate_bico_reto.png" class="manuais" class="gedore" class="cem"></a>
+                    <figcaption>Alicate bico fino<p></p> GEDORE <p></p> R$ 95</figcaption>
+                </figure>
+            </div>
+            <div class="manuais" class="fortgpro" class="cinquenta">
+                <figure id="estilo">
+                    <a href="alicate_descascador.html"><img src= "img/alicate_descascador.png" class="manuais" class="fortgpro" class="cinquenta"></a>
+                    <figcaption>Alicate Descascador de Fios<p></p> FORTGPRO <p></p> R$ 15</figcaption>    
+                </figure>
+                    <figure id="estilo">
+                    <a href="alicate_pressao.html"><img src= "img/alicate_pressao.png" class="manuais" class="fortgpro" class="cinquenta"></a>
+                    <figcaption>Alicate de Pressão<p></p> GEDORE <p></p> R$ 50</figcaption>
+                </figure>
+                <figure id="estilo">
+                    <a href="chave_fenda.html"><img src= "img/chave_fenda.png" class="manuais" class="fortgpro" class="cinquenta"></a>
+                    <figcaption>Chave de Fenda Reforçada<p></p> FORTGPRO <p></p> R$ 10</figcaption>
+                </figure>
+            </div>
+
+            <div class="manuais" class="robust" class="cem">
+                <figure id="estilo">
+                    <a href="chave_ajustavel.html"><img src= "img/chave_ajustavel.png" class="manuais" class="robust" class="cem"></a>
+                    <figcaption>Chave Ajustável 12 Pol.<p></p> GEDORE <p></p> R$ 80</figcaption>
+                </figure>
+            </div>
+            <div class="manuais" class="robust" class="cinquenta">
+                <figure id="estilo">
+                    <a href="chave_combinada.html"><img src= "img/chave_combinada.png" class="manuais" class="robust" class="cinquenta"></a>
+                    <figcaption>Chave Combinada 18mm<p></p> ROBUST <p></p> R$ 40</figcaption>
+                </figure>
+            </div>
+
+            <div class="carpintaria" class="vonder" class="cinquenta"> 
+                <figure id="estilo">
+                    <a href="grampo_carpinteiro.html"><img src= "img/grampo_carpinteiro.png" class="carpintaria" class="vonder" class="cinquenta"></a>
+                    <figcaption>Grampo para Carpinteiro<p></p> VONDER <p></p> R$ 30</figcaption>
+                </figure>
+                <figure id="estilo">
+                    <a href="lapis_carpinteiro.html"><img src= "img/lapis_carpinteiro.png" class="carpintaria" class="vonder" class="cinquenta"></a> 
+                    <figcaption>Jogo Lápis Carpinteiro 72 Peças<p></p> VONDER <p></p> R$ 40</figcaption>
+                </figure>
+            </div>
+            <div class="marcenaria" class="vonder" class="cem">
+                <figure id="estilo">
+                    <a href="grampo_sargento.html"><img src= "img/grampo_sargento.png" class="marcenaria" class="vonder" class="cem"></a>
+                    <figcaption>Grampo Sargento 80X400mm<p></p> VONDER<p></p> R$ 70</figcaption>
+                </figure>
+                </figure><figure id="estilo">
+                    <a href="grampo_c.html"><img src= "img/grampo_c.png" class="marcenaria" class="vonder" class="cem"></a>
+                    <figcaption>Grampo Tipo C de 6 Pol<p></p> VONDER <p></p> R$ 80</figcaption>
+                </figure>
+            </div>
+
+            <div class="mecanica" class="fortgpro" class="cem">
+                <figure id="estilo">
+                    <a href="multimetro.html"><img src= "img/multimetro.png"class="mecanica" class="fortgpro" class="cem"></a>
+                    <figcaption>Multímetro c/ Teste Continuidade<p></p> FORTGPRO <p></p> R$ 60</figcaption>
+                </figure>
+                <figure id="estilo">
+                    <a href="medidor.html"><img src= "img/medidor.png" class="mecanica" class="fortgpro"></a>
+                    <figcaption>Medidor de Compressão<p></p> FORTGPRO <p></p> R$ 60</figcaption>
+                </figure>
+            </div>
+            
+            <div class="jardinagem" class="vulcan" class="mais_cem">
+                <figure id="estilo">
+                    <a href="motosserra.html"><img src= "img/motosserra.png" class="jardinagem" class="vulcan" class="mais_cem"></a>      
+                    <figcaption>Motosserra 2T 55cc 3hp<p></p> Vulcan <p></p> R$ 730</figcaption>
+                </figure>
+                <figure id="estilo">
+                    <a href="cortador.html"><img src= "img/cortador.png" class="jardinagem" class="vulcan" class="mais_cem"></a>
+                    <figcaption>Cortador de Grama Elétrico 1800W<p></p> VULCAN <p></p> R$ 750</figcaption>
+                </figure>
+                <figure id="estilo">
+                    <a href="rocadeira.html"><img src= "img/rocadeira.png"class="jardinagem" class="vulcan" class="mais_cem"></a>
+                    <figcaption>Roçadeira Profissional 43CC<p></p> VULCAN <p></p> R$ 670</figcaption>
+                </figure>
+            </div>
+
+            <div class="jardinagem" class="escalli" class="mais_cem">
+                <figure id="estilo">
+                    <a href="escada.html"><img src= "img/escada.png" class="jardinagem" class="escalli" class="mais_cem"></a>
+                    <figcaption>Escada de Aço Extensível<p></p> ESCALLI <p></p> R$ 130</figcaption>
+                </figure> 
+
+            </div>    
+        </div>
+    </div>
+</body>
+
